@@ -1,0 +1,16 @@
+# build artefacts
+build/
+*.o
+*.a
+*.so
+*.obj
+*.exe
+
+# editor junk
+*.swp
+*.bak
+*~
+.DS_Store
+
+# generated table files
+*.tbl
