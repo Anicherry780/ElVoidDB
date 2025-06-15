@@ -1,5 +1,5 @@
 #include "ThreadPool.hpp"
 
-namespace astrodb::util {
+namespace elvoiddb::util {
 ThreadPool gThreadPool;          // default size = hardware_concurrency
-} // namespace astrodb::util
+} // namespace elvoiddb::util

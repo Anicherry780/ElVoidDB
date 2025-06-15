@@ -1,7 +1,7 @@
 #include "Page.hpp"
 #include <cstring>
 
-namespace astrodb::storage {
+namespace elvoiddb::storage {
 
 Page::Page()
 {
@@ -50,4 +50,4 @@ void Page::forEachRecord(const std::function<void(const char*,uint16_t)>& cb) co
     }
 }
 
-} // namespace astrodb::storage
+} // namespace elvoiddb::storage

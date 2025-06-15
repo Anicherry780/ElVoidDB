@@ -5,7 +5,7 @@
 #include <filesystem>
 #include <mutex>
 
-namespace astrodb::storage {
+namespace elvoiddb::storage {
 
 namespace fs = std::filesystem;
 
@@ -57,4 +57,4 @@ public:
 
 extern BufferPool gBufPool;   // global instance
 
-} // namespace astrodb::storage
+} // namespace elvoiddb::storage

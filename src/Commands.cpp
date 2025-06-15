@@ -2,7 +2,7 @@
 #include <iostream>
 #include <algorithm>
 
-namespace astrodb {
+namespace elvoiddb {
 
 std::unordered_map<std::string, MemTable> gMemDB;
 storage::FileManager                       gFileMgr;
@@ -72,4 +72,4 @@ void SelectCmd::execute()
     for (const auto& r : tbl.rows) printRow(r);
 }
 
-} // namespace astrodb
+} // namespace elvoiddb

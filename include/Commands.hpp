@@ -6,7 +6,7 @@
 #include <vector>
 #include <unordered_map>
 
-namespace astrodb {
+namespace elvoiddb {
 
 /* ---------- simple in-memory table ---------- */
 struct MemTable {
@@ -47,4 +47,4 @@ public:
     void execute() override;
 };
 
-} // namespace astrodb
+} // namespace elvoiddb

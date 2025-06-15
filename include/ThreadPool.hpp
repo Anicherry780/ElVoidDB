@@ -6,7 +6,7 @@
 #include <condition_variable>
 #include <atomic>
 
-namespace astrodb::util {
+namespace elvoiddb::util {
 
 class ThreadPool {
     std::vector<std::thread>              workers_;
@@ -53,4 +53,4 @@ public:
 /* global worker pool (created once, used everywhere) */
 extern ThreadPool gThreadPool;
 
-} // namespace astrodb::util
+} // namespace elvoiddb::util

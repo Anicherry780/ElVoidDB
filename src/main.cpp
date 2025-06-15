@@ -2,15 +2,15 @@
 #include "BufferPool.hpp"
 #include <iostream>
 
-using astrodb::Parser;
-using astrodb::AstroDBException;
+using elvoiddb::Parser;
+using elvoiddb::AstroDBException;
 
 int main() {
-    std::cout << "AstroDB> ";
+    std::cout << "ElVoidDB> ";
     std::string line;
 
     while (std::getline(std::cin, line)) {
-        if (line.empty()) { std::cout << "AstroDB> "; continue; }
+        if (line.empty()) { std::cout << "ElVoidDB> "; continue; }
 
         try {
             auto cmd = Parser::parse(line);
@@ -20,9 +20,9 @@ int main() {
             std::cout << "Error: " << e.what() << '\n';
         }
 
-        std::cout << "AstroDB> ";
+        std::cout << "ElVoidDB> ";
     }
-    astrodb::storage::gBufPool.flushAll();
-    std::cout << "Bye from AstroDB!\n";
+    elvoiddb::storage::gBufPool.flushAll();
+    std::cout << "Bye from ElVoidDB!\n";
     return 0;
 }

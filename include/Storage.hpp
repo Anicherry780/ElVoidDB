@@ -7,7 +7,7 @@
 #include <unordered_map>
 #include <vector>
 
-namespace astrodb::storage {
+namespace elvoiddb::storage {
 
 namespace fs  = std::filesystem;
 
@@ -49,4 +49,4 @@ public:
     TableFile*  openTable  (const std::string& name);
 };
 
-} // namespace astrodb::storage
+} // namespace elvoiddb::storage

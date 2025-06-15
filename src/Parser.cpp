@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <cctype>        //  isspace
 
-namespace astrodb {
+namespace elvoiddb {
 
 /* ── helper: remove optional trailing semicolon ─────────────── */
 static void stripSemicolon(std::string& s)
@@ -85,4 +85,4 @@ std::unique_ptr<SQLCommand> Parser::parse(const std::string& line)
     throw ParseError("unknown command");
 }
 
-} // namespace astrodb
+} // namespace elvoiddb

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libastrodb_core.a CMakeFiles/astrodb_core.dir/src/Commands.cpp.o CMakeFiles/astrodb_core.dir/src/Page.cpp.o CMakeFiles/astrodb_core.dir/src/Parser.cpp.o CMakeFiles/astrodb_core.dir/src/Storage.cpp.o
-/usr/bin/ranlib libastrodb_core.a
+/usr/bin/ar qc libelvoiddb_core.a CMakeFiles/elvoiddb_core.dir/src/Commands.cpp.o CMakeFiles/elvoiddb_core.dir/src/Page.cpp.o CMakeFiles/elvoiddb_core.dir/src/Parser.cpp.o CMakeFiles/elvoiddb_core.dir/src/Storage.cpp.o
+/usr/bin/ranlib libelvoiddb_core.a

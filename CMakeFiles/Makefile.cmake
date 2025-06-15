@@ -41,6 +41,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/astrodb_core.dir/DependInfo.cmake"
-  "CMakeFiles/astrodb.dir/DependInfo.cmake"
+  "CMakeFiles/elvoiddb_core.dir/DependInfo.cmake"
+  "CMakeFiles/elvoiddb.dir/DependInfo.cmake"
   )

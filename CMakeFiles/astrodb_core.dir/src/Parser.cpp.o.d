@@ -1,4 +1,4 @@
-CMakeFiles/astrodb_core.dir/src/Parser.cpp.o: \
+CMakeFiles/elvoiddb_core.dir/src/Parser.cpp.o: \
  /home/pi3/AstroDB/src/Parser.cpp /usr/include/stdc-predef.h \
  /home/pi3/AstroDB/include/Parser.hpp \
  /home/pi3/AstroDB/include/Commands.hpp \

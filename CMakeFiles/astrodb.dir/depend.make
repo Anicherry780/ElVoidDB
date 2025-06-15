@@ -1,2 +1,2 @@
-# Empty dependencies file for astrodb.
+# Empty dependencies file for elvoiddb.
 # This may be replaced when dependencies are built.

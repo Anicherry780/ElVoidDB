@@ -1,4 +1,4 @@
-/home/pi3/AstroDB/CMakeFiles/astrodb_core.dir
-/home/pi3/AstroDB/CMakeFiles/astrodb.dir
+/home/pi3/AstroDB/CMakeFiles/elvoiddb_core.dir
+/home/pi3/AstroDB/CMakeFiles/elvoiddb.dir
 /home/pi3/AstroDB/CMakeFiles/edit_cache.dir
 /home/pi3/AstroDB/CMakeFiles/rebuild_cache.dir

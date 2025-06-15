@@ -4,7 +4,7 @@
 #include <cstring>
 #include "ThreadPool.hpp"
 
-namespace astrodb::storage {
+namespace elvoiddb::storage {
 
 BufferPool gBufPool; // default 64 frames
 
@@ -87,4 +87,4 @@ void BufferPool::flushAll() {
     for (auto &f : lru_) if (f.dirty) flushFrame(f);
 }
 
-} // namespace astrodb::storage
+} // namespace elvoiddb::storage

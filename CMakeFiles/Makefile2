@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/pi3/AstroDB
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/astrodb_core.dir/all
-all: CMakeFiles/astrodb.dir/all
+all: CMakeFiles/elvoiddb_core.dir/all
+all: CMakeFiles/elvoiddb.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,61 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/astrodb_core.dir/clean
-clean: CMakeFiles/astrodb.dir/clean
+clean: CMakeFiles/elvoiddb_core.dir/clean
+clean: CMakeFiles/elvoiddb.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/astrodb_core.dir
+# Target rules for target CMakeFiles/elvoiddb_core.dir
 
 # All Build rule for target.
-CMakeFiles/astrodb_core.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi3/AstroDB/CMakeFiles --progress-num=3,4,5,6,7 "Built target astrodb_core"
-.PHONY : CMakeFiles/astrodb_core.dir/all
+CMakeFiles/elvoiddb_core.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi3/AstroDB/CMakeFiles --progress-num=3,4,5,6,7 "Built target elvoiddb_core"
+.PHONY : CMakeFiles/elvoiddb_core.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/astrodb_core.dir/rule: cmake_check_build_system
+CMakeFiles/elvoiddb_core.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi3/AstroDB/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/astrodb_core.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/elvoiddb_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi3/AstroDB/CMakeFiles 0
-.PHONY : CMakeFiles/astrodb_core.dir/rule
+.PHONY : CMakeFiles/elvoiddb_core.dir/rule
 
 # Convenience name for target.
-astrodb_core: CMakeFiles/astrodb_core.dir/rule
-.PHONY : astrodb_core
+elvoiddb_core: CMakeFiles/elvoiddb_core.dir/rule
+.PHONY : elvoiddb_core
 
 # clean rule for target.
-CMakeFiles/astrodb_core.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/clean
-.PHONY : CMakeFiles/astrodb_core.dir/clean
+CMakeFiles/elvoiddb_core.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/clean
+.PHONY : CMakeFiles/elvoiddb_core.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/astrodb.dir
+# Target rules for target CMakeFiles/elvoiddb.dir
 
 # All Build rule for target.
-CMakeFiles/astrodb.dir/all: CMakeFiles/astrodb_core.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb.dir/build.make CMakeFiles/astrodb.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb.dir/build.make CMakeFiles/astrodb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi3/AstroDB/CMakeFiles --progress-num=1,2 "Built target astrodb"
-.PHONY : CMakeFiles/astrodb.dir/all
+CMakeFiles/elvoiddb.dir/all: CMakeFiles/elvoiddb_core.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb.dir/build.make CMakeFiles/elvoiddb.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb.dir/build.make CMakeFiles/elvoiddb.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi3/AstroDB/CMakeFiles --progress-num=1,2 "Built target elvoiddb"
+.PHONY : CMakeFiles/elvoiddb.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/astrodb.dir/rule: cmake_check_build_system
+CMakeFiles/elvoiddb.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi3/AstroDB/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/astrodb.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/elvoiddb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi3/AstroDB/CMakeFiles 0
-.PHONY : CMakeFiles/astrodb.dir/rule
+.PHONY : CMakeFiles/elvoiddb.dir/rule
 
 # Convenience name for target.
-astrodb: CMakeFiles/astrodb.dir/rule
-.PHONY : astrodb
+elvoiddb: CMakeFiles/elvoiddb.dir/rule
+.PHONY : elvoiddb
 
 # clean rule for target.
-CMakeFiles/astrodb.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb.dir/build.make CMakeFiles/astrodb.dir/clean
-.PHONY : CMakeFiles/astrodb.dir/clean
+CMakeFiles/elvoiddb.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb.dir/build.make CMakeFiles/elvoiddb.dir/clean
+.PHONY : CMakeFiles/elvoiddb.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

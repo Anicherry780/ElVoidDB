@@ -1,4 +1,4 @@
-CMakeFiles/astrodb.dir/src/main.cpp.o: /home/pi3/AstroDB/src/main.cpp \
+CMakeFiles/elvoiddb.dir/src/main.cpp.o: /home/pi3/AstroDB/src/main.cpp \
  /usr/include/stdc-predef.h /home/pi3/AstroDB/include/Parser.hpp \
  /home/pi3/AstroDB/include/Commands.hpp \
  /home/pi3/AstroDB/include/Exceptions.hpp /usr/include/c++/12/stdexcept \

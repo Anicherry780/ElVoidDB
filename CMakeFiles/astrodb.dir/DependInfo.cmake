@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pi3/AstroDB/src/main.cpp" "CMakeFiles/astrodb.dir/src/main.cpp.o" "gcc" "CMakeFiles/astrodb.dir/src/main.cpp.o.d"
+  "/home/pi3/AstroDB/src/main.cpp" "CMakeFiles/elvoiddb.dir/src/main.cpp.o" "gcc" "CMakeFiles/elvoiddb.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pi3/AstroDB/CMakeFiles/astrodb_core.dir/DependInfo.cmake"
+  "/home/pi3/AstroDB/CMakeFiles/elvoiddb_core.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

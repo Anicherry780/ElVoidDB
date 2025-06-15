@@ -4,7 +4,7 @@
 #include "BufferPool.hpp"
 #include <algorithm>
 
-namespace astrodb::storage {
+namespace elvoiddb::storage {
 
 /* ─── BlockFile ─────────────────────────────────────────────── */
 
@@ -193,7 +193,7 @@ void FileManager::createTable(const std::string& n,
     open_[n] = std::make_unique<TableFile>(n, true, cols);
 }
 
-astrodb::storage::TableFile* FileManager::openTable(const std::string& n)
+elvoiddb::storage::TableFile* FileManager::openTable(const std::string& n)
 {
     if (auto it = open_.find(n); it != open_.end()) return it->second.get();
     if (!fs::exists(n + ".tbl")) return nullptr;
@@ -201,4 +201,4 @@ astrodb::storage::TableFile* FileManager::openTable(const std::string& n)
     return open_[n].get();
 }
 
-} // namespace astrodb::storage
+} // namespace elvoiddb::storage

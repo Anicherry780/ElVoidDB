@@ -4,7 +4,7 @@
 #include <string>
 #include <functional>
 
-namespace astrodb::storage {
+namespace elvoiddb::storage {
 
 inline constexpr size_t PAGE_SIZE = 4096;
 
@@ -29,4 +29,4 @@ public:
     char *raw() { return data; }
 };
 
-} // namespace astrodb::storage
+} // namespace elvoiddb::storage

@@ -2,7 +2,7 @@
 #include <stdexcept>
 #include <string>
 
-namespace astrodb {
+namespace elvoiddb {
 
 // Base for all engine-level errors
 class AstroDBException : public std::runtime_error {
@@ -15,4 +15,4 @@ class StorageError   : public AstroDBException { using AstroDBException::AstroDB
 class ParseError     : public AstroDBException { using AstroDBException::AstroDBException; };
 class ExecutionError : public AstroDBException { using AstroDBException::AstroDBException; };
 
-} // namespace astrodb
+} // namespace elvoiddb

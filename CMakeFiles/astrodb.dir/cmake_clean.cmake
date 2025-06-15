@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/astrodb.dir/src/main.cpp.o"
-  "CMakeFiles/astrodb.dir/src/main.cpp.o.d"
-  "astrodb"
-  "astrodb.pdb"
+  "CMakeFiles/elvoiddb.dir/src/main.cpp.o"
+  "CMakeFiles/elvoiddb.dir/src/main.cpp.o.d"
+  "elvoiddb"
+  "elvoiddb.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/astrodb.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/elvoiddb.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

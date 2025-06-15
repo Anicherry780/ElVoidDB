@@ -1,4 +1,4 @@
-CMakeFiles/astrodb_core.dir/src/Storage.cpp.o: \
+CMakeFiles/elvoiddb_core.dir/src/Storage.cpp.o: \
  /home/pi3/AstroDB/src/Storage.cpp /usr/include/stdc-predef.h \
  /home/pi3/AstroDB/include/Storage.hpp \
  /home/pi3/AstroDB/include/Exceptions.hpp /usr/include/c++/12/stdexcept \

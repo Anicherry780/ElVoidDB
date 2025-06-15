@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/astrodb.dir/src/main.cpp.o -o astrodb  libastrodb_core.a 
+/usr/bin/c++ CMakeFiles/elvoiddb.dir/src/main.cpp.o -o elvoiddb  libelvoiddb_core.a 

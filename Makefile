@@ -118,37 +118,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named astrodb_core
+# Target rules for targets named elvoiddb_core
 
 # Build rule for target.
-astrodb_core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 astrodb_core
-.PHONY : astrodb_core
+elvoiddb_core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elvoiddb_core
+.PHONY : elvoiddb_core
 
 # fast build rule for target.
-astrodb_core/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/build
-.PHONY : astrodb_core/fast
+elvoiddb_core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/build
+.PHONY : elvoiddb_core/fast
 
 #=============================================================================
-# Target rules for targets named astrodb
+# Target rules for targets named elvoiddb
 
 # Build rule for target.
-astrodb: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 astrodb
-.PHONY : astrodb
+elvoiddb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elvoiddb
+.PHONY : elvoiddb
 
 # fast build rule for target.
-astrodb/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb.dir/build.make CMakeFiles/astrodb.dir/build
-.PHONY : astrodb/fast
+elvoiddb/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb.dir/build.make CMakeFiles/elvoiddb.dir/build
+.PHONY : elvoiddb/fast
 
 src/Commands.o: src/Commands.cpp.o
 .PHONY : src/Commands.o
 
 # target to build an object file
 src/Commands.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Commands.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Commands.cpp.o
 .PHONY : src/Commands.cpp.o
 
 src/Commands.i: src/Commands.cpp.i
@@ -156,7 +156,7 @@ src/Commands.i: src/Commands.cpp.i
 
 # target to preprocess a source file
 src/Commands.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Commands.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Commands.cpp.i
 .PHONY : src/Commands.cpp.i
 
 src/Commands.s: src/Commands.cpp.s
@@ -164,7 +164,7 @@ src/Commands.s: src/Commands.cpp.s
 
 # target to generate assembly for a file
 src/Commands.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Commands.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Commands.cpp.s
 .PHONY : src/Commands.cpp.s
 
 src/Page.o: src/Page.cpp.o
@@ -172,7 +172,7 @@ src/Page.o: src/Page.cpp.o
 
 # target to build an object file
 src/Page.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Page.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Page.cpp.o
 .PHONY : src/Page.cpp.o
 
 src/Page.i: src/Page.cpp.i
@@ -180,7 +180,7 @@ src/Page.i: src/Page.cpp.i
 
 # target to preprocess a source file
 src/Page.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Page.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Page.cpp.i
 .PHONY : src/Page.cpp.i
 
 src/Page.s: src/Page.cpp.s
@@ -188,7 +188,7 @@ src/Page.s: src/Page.cpp.s
 
 # target to generate assembly for a file
 src/Page.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Page.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Page.cpp.s
 .PHONY : src/Page.cpp.s
 
 src/Parser.o: src/Parser.cpp.o
@@ -196,7 +196,7 @@ src/Parser.o: src/Parser.cpp.o
 
 # target to build an object file
 src/Parser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Parser.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Parser.cpp.o
 .PHONY : src/Parser.cpp.o
 
 src/Parser.i: src/Parser.cpp.i
@@ -204,7 +204,7 @@ src/Parser.i: src/Parser.cpp.i
 
 # target to preprocess a source file
 src/Parser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Parser.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Parser.cpp.i
 .PHONY : src/Parser.cpp.i
 
 src/Parser.s: src/Parser.cpp.s
@@ -212,7 +212,7 @@ src/Parser.s: src/Parser.cpp.s
 
 # target to generate assembly for a file
 src/Parser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Parser.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Parser.cpp.s
 .PHONY : src/Parser.cpp.s
 
 src/Storage.o: src/Storage.cpp.o
@@ -220,7 +220,7 @@ src/Storage.o: src/Storage.cpp.o
 
 # target to build an object file
 src/Storage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Storage.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Storage.cpp.o
 .PHONY : src/Storage.cpp.o
 
 src/Storage.i: src/Storage.cpp.i
@@ -228,7 +228,7 @@ src/Storage.i: src/Storage.cpp.i
 
 # target to preprocess a source file
 src/Storage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Storage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Storage.cpp.i
 .PHONY : src/Storage.cpp.i
 
 src/Storage.s: src/Storage.cpp.s
@@ -236,7 +236,7 @@ src/Storage.s: src/Storage.cpp.s
 
 # target to generate assembly for a file
 src/Storage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb_core.dir/build.make CMakeFiles/astrodb_core.dir/src/Storage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb_core.dir/build.make CMakeFiles/elvoiddb_core.dir/src/Storage.cpp.s
 .PHONY : src/Storage.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -244,7 +244,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb.dir/build.make CMakeFiles/astrodb.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb.dir/build.make CMakeFiles/elvoiddb.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -252,7 +252,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb.dir/build.make CMakeFiles/astrodb.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb.dir/build.make CMakeFiles/elvoiddb.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -260,7 +260,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/astrodb.dir/build.make CMakeFiles/astrodb.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elvoiddb.dir/build.make CMakeFiles/elvoiddb.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -271,8 +271,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... astrodb"
-	@echo "... astrodb_core"
+	@echo "... elvoiddb"
+	@echo "... elvoiddb_core"
 	@echo "... src/Commands.o"
 	@echo "... src/Commands.i"
 	@echo "... src/Commands.s"

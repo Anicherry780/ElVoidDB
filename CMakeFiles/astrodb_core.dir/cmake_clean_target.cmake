@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libastrodb_core.a"
+  "libelvoiddb_core.a"
 )
