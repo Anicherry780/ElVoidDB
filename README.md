@@ -1,3 +1,5 @@
+> Collaborative project with @Srimany123 — original source: https://github.com/Srimany123/ElVoidDB
+
 # ElVoidDB
 
 **ElVoidDB** is a simple, from-scratch database engine written in C++17. It demonstrates core database concepts using a slotted-page storage design, buffer pooling, SQL parsing, and basic query execution. This project is built and tested on a Raspberry Pi 5 (8 GB RAM) but runs equally well on standard x86 systems.
